@@ -1,0 +1,4 @@
+# Thumb rule is that we should put all files in git ignore which the server can generate
+# Never put package.jso in the gitignore directory
+# dist should be added to .gitignore
+
