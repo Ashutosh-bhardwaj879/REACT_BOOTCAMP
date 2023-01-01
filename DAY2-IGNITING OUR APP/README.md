@@ -98,19 +98,19 @@ WE SHOULD PUT PARCEL.CACHE IN GIT IGNORE
 
 TRANSITIVE DEPENDENCIES
 
-Hot hodule Reloading
-HYR
-Fite watcher algorithm -
-minify
-BUNDLING
-Cleaning our Code
-Dev abd Production Build
-Super Fast build algorithm
-Inaqe optimization
-Cachinq white development
-Conpression
-Conpatbte with Older version Of browser
-HTTPS on dev
-port Nunt)er
-Consistent Hashing Algorithm
-Zero Confiq
+1)Hot hodule Reloading
+2)HYR
+3)Fite watcher algorithm -
+4)minify
+5)BUNDLING
+6)Cleaning our Code
+7)Dev abd Production Build
+8)Super Fast build algorithm
+9)Inaqe optimization
+10)Cachinq white development
+11)Conpression
+12)Conpatbte with Older version Of browser
+13)HTTPS on dev
+14)port number
+15)Consistent Hashing Algorithm
+16)Zero Confiq
