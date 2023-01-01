@@ -195,6 +195,7 @@ npm install bootstrap --save-dev
 Peer Dependencies: In package.json file, there is an object called as peerDependencies and it consists of all the packages that are exactly required in the project or to the person who is downloading and the version numbers should also be the same. That is the reason they were named as peerDependencies. The best example is ‘react’ which is common in every project to run similarly.
 
 Note: These dependencies are not automatically installed. npm gives a warning message whenever there is a peer Dependency and these are different dependencies compared to the above-discussed dependencies.
+GLOBAL DEPENDENCY IS A DIFFERENT THING
 
 https://www.geeksforgeeks.org/difference-between-dependencies-devdependencies-and-peerdependencies/
 
