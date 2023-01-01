@@ -1,3 +1,13 @@
+--DAY1 NOTES
+-------------
+*We need to copy paste cdn links for react to
+start minimally working with react
+
+*We can use React.createElement("tag",{id:"attribute"},"what to fill");
+We can use ReactDOM.createRoot(document.getElemtbyId("root"));
+root.render(container);
+
+
 Q1) What is Emmet?
 ----------------------------------------------------------------
 Ans  - Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSLT, and other structured code formats via content assist. The project was started by Vadim Makeev in 2008 and continues to be actively developed by Sergey Chikuyonok and Emmet users
