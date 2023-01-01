@@ -72,3 +72,6 @@ Ans -Async scripts are executed as soon as the script is loaded, so it doesn't g
 
 Defer scripts guarantees the order of execution in which they appear in the page.
 https://stackoverflow.com/questions/10808109/script-tag-async-defer
+
+Q8) Why is React known as React?
+Name itself react will gets reacted when there is a change in data, in simple terms when the data in react components changes then react will automatically re-render the component to make it look up-to-date
