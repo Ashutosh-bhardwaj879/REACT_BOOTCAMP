@@ -1,0 +1,21 @@
+{
+  "name": "day2-igniting-our-app",
+  "version": "1.0.0",
+  "description": "This is our igniting our app",
+
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "Ashutosh Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}
