@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client";
 
 // const heading1 = <h1>Heading1</h1>;
 
-const container = (
+const containers = (
   <div className="container">
     <header className="header">
       <h1 id="h1" key="h1">
@@ -21,4 +21,4 @@ const container = (
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(containers);
