@@ -1,0 +1,138 @@
+Browserlist help us transform our code and let us un our code in different browsers
+It will only work there
+No that is not  the same case
+whatever i write over here
+This means that it will definitely work on chrome
+
+Why does that happen?
+--------------------
+when browser upgrade themself
+there are new capabilities come up
+some browser does not support es6 yet
+we need to convert our code to older verisons of browser
+
+What is polyfill?
+----------------
+Polyfill is basically a code which is a replacement
+for a newer verison of code
+
+If your browser dont support arrow fucntion that means
+it will convert our code to simultaneous for that
+
+we can create a same map function that behacves
+exactly same as the new map fucntion
+
+coder does not write polyfill
+babel does that automatically
+
+
+Who converts newer code to older code?
+--------------------------------------
+Babel does that
+Babel uses browserlist
+Babel is just a node package
+Babel takes newerjs convert it to older js
+babel comes along with parcel
+
+
+.pckage-lock.json also present in node modules
+
+
+console.log() arent removed in the npx parcel build command
+we need to use some kind of configurations for that
+
+we can use babel plugin transform runtime console
+https://www.npmjs.com/package/babel-plugin-transform-remove-console
+
+We need to configure babelrc as shown in documentation
+
+then we can run
+our npx parcel build index.html or npm run build
+we should remove the dist folder always it is a good way
+try searching now you wont see console.log()
+
+
+
+
+
+ERROR
+--------
+Warning: Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://reactjs.org/link/warning-keys for more information.
+    at h1
+whenever we have [] in create elemnt we should give key to child elemts
+in props
+
+key:"h1"
+key:"h2"
+
+but why do we need keys?
+-----------------------
+https://reactjs.org/docs/reconciliation.html
+basically it will reduce perofrmance, re rendering time will increase
+if we give unique keys to them, if u bring a new child react has to do very less work
+thats why keys are good
+
+
+
+React.createElement()b=> Object => HTML(DOM)
+
+
+HOW JSX WORKS?
+--------------
+JSX is a HTML like syntax
+JSX uses reatc.createElement() which converts to objetct then to html dom
+JSX => React.createElement()b=> Object => HTML(DOM)
+babel converts JSX to react.createElement()
+JSX is not a package
+JSX is a syntax
+
+JSX Expression
+---------------
+
+(
+  <div className="container">
+    <header className="header">
+      <h1 id="h1" key="h1">
+        Heading1
+      </h1>
+      <h2 id="h2" key="h2">
+        Heading2
+      </h2>
+    </header>
+  </div>
+);
+
+component
+-----------
+
+functional component (new way)
+class component (old way)
+
+
+
+What is functional component?
+-------------------------------
+functional componet is a normal function, it is returning jsx
+A function is returning a react element it is a functional component
+Name of component starts with a capital letter
+No it is not mandatory
+
+will jsx work without parcel?
+----------------------------------
+yes it can work but we need to install babel
+
+will jsx work wothout babel?
+-----------------------------
+no we need babel
+
+
+HOW DOES JSX EXECUTE THIS?
+---------------------------
+BABEL UNDERSTANS JSX
+
+
+how to create various tags inside jsx?image tags, hq tags class name etc?
+DIFFERENCE BETWEEN HTML VS JSX?
+wHAT IS REACT ELEMENT?
