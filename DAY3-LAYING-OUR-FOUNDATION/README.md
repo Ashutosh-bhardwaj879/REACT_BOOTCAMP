@@ -47,15 +47,15 @@ text/vbscript: This indicates that the script contains VBScript code, which is a
 
 It is important to note that the type attribute is not required for modern browsers, as they can usually determine the correct script type based on the script file extension. However, it is still a good practice to include the type attribute to ensure compatibility with older browsers and to make your code more explicit.
 
-## Q4){TitleComponent} VS {<Tit1eComponent/>} VS {<Tit1eComponent></Tit1eComponent>} in JSX
+## Q4){TitleComponent} VS <Tit1eComponent/> VS <Tit1eComponent></Tit1eComponent> in JSX
 
 In JSX, curly braces are used to include a JavaScript expression within the JSX code. The expression inside the curly braces can be a variable, a function call, or any valid JavaScript expression.
 
-The difference between {TitleComponent}, {<Tit1eComponent/>}, and {<Tit1eComponent></Tit1eComponent>} is in how they are evaluated.
+The difference between {TitleComponent}, <Tit1eComponent/>, and <Tit1eComponent></Tit1eComponent> is in how they are evaluated.
 
 {TitleComponent} will be evaluated as a JavaScript expression and will insert the result of the expression into the JSX code. If TitleComponent is a reference to a JSX element, this will render the element.
-{<Tit1eComponent/>} is also evaluated as a JavaScript expression, but in this case, it is creating and rendering a new instance of the Tit1eComponent JSX element.
-{<Tit1eComponent></Tit1eComponent>} is similar to the above, but it is creating and rendering a new instance of the Tit1eComponent JSX element with no children. This is known as a self-closing element.
+<Tit1eComponent/> is also evaluated as a JavaScript expression, but in this case, it is creating and rendering a new instance of the Tit1eComponent JSX element.
+<Tit1eComponent></Tit1eComponent> is similar to the above, but it is creating and rendering a new instance of the Tit1eComponent JSX element with no children. This is known as a self-closing element.
 So, the main difference between these three expressions is in whether they are rendering an existing element or creating and rendering a new instance of an element.
 
 The Difference is stated below:
