@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 // const heading1 = React.createElement(
 //   "h1",
@@ -20,7 +20,7 @@ import ReactDOM from "react-dom";
 // );
 
 /*• Create a Nested header Element using React.createElement(h1,h2,h3 inside a div with class "title")*/
-const container = React.createElement(
+/*const container = React.createElement(
   "div",
   {
     id: "container",
@@ -39,3 +39,7 @@ const container = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(container);
+
+*/
+
+
