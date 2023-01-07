@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 /*Create the same element using JSX*/
 
 // const heading1 = <h1>Heading1</h1>;
-
+//JSX => React.createElement() => Object => HTML DOM
 const containers = (
   <div className="container">
     <header className="header">
