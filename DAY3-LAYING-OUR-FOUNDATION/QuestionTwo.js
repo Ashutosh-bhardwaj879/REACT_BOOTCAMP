@@ -6,6 +6,8 @@ import ReactDOM from "react-dom/client";
 
 // const heading1 = <h1>Heading1</h1>;
 //JSX => React.createElement() => Object => HTML DOM
+
+//React Element
 const containers = (
   <div className="container">
     <header className="header">
