@@ -1,3 +1,32 @@
-.header{
-    background: red;
+.header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo {
+  height: 100%;
+  margin: 0 20px;
+}
+
+.header__search {
+  flex: 1;
+  margin: 0 20px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.header__user-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header__user-icon {
+  height: 100%;
 }
