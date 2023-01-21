@@ -22,10 +22,6 @@ import * as OBJ from "./components/Header";
  * Footer
  */
 
-
-
-
-
 const AppLayout = () => {
   return (
     <>

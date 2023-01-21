@@ -1,6 +1,6 @@
 import { restaurantList } from "../constants";
 import RestrauntCard from "./RestrauntCard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Body = () => {
   // const searchValue = "KFC";
@@ -14,6 +14,9 @@ const Body = () => {
   const searchVar = useState();
   const [varibaleNmae,functionName] = searchVar
   */
+  useEffect(() => {
+    //API CALL
+  }, []);
 
   function filterData(searchText, restaurants) {
     return restaurants.filter((restaurant) =>
